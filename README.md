@@ -1,7 +1,3 @@
-Here’s a clean and professional `README.md` for your **Todo List** project built with **React, Tailwind CSS, and Vite**:
-
----
-
 # 📝 Todo List App
 
 A simple and responsive **Todo List** application built using **React**, **Vite**, and **Tailwind CSS**. This app allows users to add, edit, complete, and delete tasks with a clean and modern user interface.
