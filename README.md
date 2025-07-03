@@ -1,16 +1,113 @@
-<<<<<<< HEAD
-# Todo_list
-=======
-# React + Vite
+Here’s a clean and professional `README.md` for your **Todo List** project built with **React, Tailwind CSS, and Vite**:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+# 📝 Todo List App
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A simple and responsive **Todo List** application built using **React**, **Vite**, and **Tailwind CSS**. This app allows users to add, edit, complete, and delete tasks with a clean and modern user interface.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> cbe6d64 (todo_list)
+## 🚀 Features
+
+* Add new todos
+* Edit existing todos
+* Mark todos as completed or incomplete
+* Delete todos
+* Responsive design with Tailwind CSS
+* Lightning-fast development with Vite
+
+---
+
+## 🛠 Tech Stack
+
+* ⚛️ **React** – JavaScript library for building user interfaces
+* ⚡ **Vite** – Next-generation frontend tooling
+* 🎨 **Tailwind CSS** – Utility-first CSS framework
+
+---
+
+## 📦 Installation
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/your-username/todo-list.git
+cd todo-list
+```
+
+2. **Install dependencies**
+
+```bash
+npm install
+```
+
+3. **Run the development server**
+
+```bash
+npm run dev
+```
+
+4. Open [http://localhost:5173](http://localhost:5173) to view the app.
+
+---
+
+## 📂 Project Structure
+
+```
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── TodoItem.jsx
+│   │   ├── TodoForm.jsx
+│   │   └── TodoList.jsx
+│   ├── contexts/
+│   │   └── TodoContext.jsx
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── tailwind.config.js
+├── vite.config.js
+└── package.json
+```
+
+---
+=
+
+## 🔗 Useful Commands
+
+| Command           | Description              |
+| ----------------- | ------------------------ |
+| `npm run dev`     | Start development server |
+| `npm run build`   | Build for production     |
+| `npm run preview` | Preview production build |
+
+---
+
+## 🌐 Deployment
+
+You can easily deploy this app to platforms like **Vercel**, **Netlify**, or **GitHub Pages**.
+
+Example (Vercel):
+
+```bash
+vercel
+```
+
+---
+
+## 📋 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🙏 Acknowledgements
+
+* [React](https://reactjs.org/)
+* [Vite](https://vitejs.dev/)
+* [Tailwind CSS](https://tailwindcss.com/)
+
+---
+
+👉 *Feel free to fork and customize this project!*
